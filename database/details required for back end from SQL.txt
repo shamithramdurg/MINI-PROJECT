@@ -1,0 +1,12 @@
+# Database Name: installment_schedule_db
+# Port: 3306
+
+# 1. Use for normal user endpoints (apply loan, view own loan & schedule)
+USER_DB_URL=jdbc:mysql://localhost:3306/installment_schedule_db?useSSL=false&serverTimezone=Asia/Kolkata
+USER_DB_USERNAME=app_user_role
+USER_DB_PASSWORD=ChangeMe_UserPass123!
+
+# 2. Use ONLY after verifying role == 'admin' in backend auth
+ADMIN_DB_URL=jdbc:mysql://localhost:3306/installment_schedule_db?useSSL=false&serverTimezone=Asia/Kolkata
+ADMIN_DB_USERNAME=app_admin_role
+ADMIN_DB_PASSWORD=ChangeMe_AdminPass123!
